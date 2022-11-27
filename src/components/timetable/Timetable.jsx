@@ -92,7 +92,10 @@ const Timetable = () => {
     if (res.status === 422 || !data) {
       console.log("error ");
     } else {
-      setUserdata(data);
+      const data1=data.sort((a, b) => {
+        return a.Lecture - b.Lecture;
+    });
+      setUserdata(data1);
       setvisibleloading(false)
     }
   };
@@ -452,7 +455,7 @@ const dayfunction_is=(d1,d2,d3,d4,d5)=>{
                   <div className="container  d-flex align-items-center justify-content-center ">
                   <div className="row  d-flex  p-3    mb-5" style={{maxWidth:"650px"}}>
                     {FilterData.filter(
-                      (datavalues) => datavalues.Day === getDaydata||datavalues.Day ===getD1||datavalues.Day ===getD2||datavalues.Day ===getD3||datavalues.Day ===getD4
+                      (datavalues) => datavalues.Day ===getD1||datavalues.Day ===getD2||datavalues.Day ===getD3||datavalues.Day ===getD4||datavalues.Day === getDaydata 
                     ).map((datavalues, id) => {
                       return (
                         <>
@@ -533,7 +536,7 @@ const dayfunction_is=(d1,d2,d3,d4,d5)=>{
                                         className="dropdown-row"
                                         key={data.Teacher}
                                       >
-                                        {data.Teacher.replace(/ /g, "")}
+                                        {data.Teacher}
                                       </p>
                                     </div>
                                   );
@@ -562,7 +565,7 @@ const dayfunction_is=(d1,d2,d3,d4,d5)=>{
                             name="timebuttons"
                             defaultChecked
                             onClick={() => {
-                              setDaydatateacher("10000");
+                              dayfunction_is("10000","10001","10010","10100","11000")
                             }}
                             value="Monday"
                           />
@@ -584,7 +587,7 @@ const dayfunction_is=(d1,d2,d3,d4,d5)=>{
                             id="tuesdaybutton"
                             name="timebuttons"
                             onClick={() => {
-                              setDaydatateacher("1000");
+                              dayfunction_is("1000","1001","1010","1100","11000")
                             }}
                             value="Tuesday"
                           />
@@ -606,7 +609,7 @@ const dayfunction_is=(d1,d2,d3,d4,d5)=>{
                             id="wednesdaybutton"
                             name="timebuttons"
                             onClick={() => {
-                              setDaydatateacher("100");
+                              dayfunction_is("100","110","101","1100","10100")
                             }}
                             value="wednesday"
                           />
@@ -627,7 +630,7 @@ const dayfunction_is=(d1,d2,d3,d4,d5)=>{
                             id="Thursdaybutton"
                             name="timebuttons"
                             onClick={() => {
-                              setDaydatateacher("10");
+                              dayfunction_is("10","11","110","1010","10010")
                             }}
                             value="10"
                           />
@@ -648,7 +651,7 @@ const dayfunction_is=(d1,d2,d3,d4,d5)=>{
                             id="fridaybutton"
                             name="timebuttons"
                             onClick={() => {
-                              setDaydatateacher("1");
+                              dayfunction_is("1","11","101","1001","10001")
                             }}
                             value="friday"
                           />
@@ -670,7 +673,7 @@ const dayfunction_is=(d1,d2,d3,d4,d5)=>{
                  <div className="d-flex align-items-center mb-5 pt-3 justify-content-center">
                   <div className="row  d-flex align-items-center " style={{maxWidth:"650px"}}>
                     {FilterDatateacher.filter(
-                      (datavalues) => datavalues.Day === getDaydata||datavalues.Day ===getD1||datavalues.Day ===getD2||datavalues.Day ===getD3||datavalues.Day ===getD4
+                      (datavalues) => datavalues.Day ===getD1||datavalues.Day ===getD2||datavalues.Day ===getD3||datavalues.Day ===getD4||datavalues.Day === getDaydata
                     ).map((datavalues, id) => {
                       return (
                         <>
