@@ -1,0 +1,137 @@
+/*======================Utalities===================================*/
+.navbackg {
+  background-color: var(--primary);
+}
+
+.sectionheading {
+  font-family: "Montserrat-Bold", sans-serif;
+
+  font-size: 34px;
+  text-transform: uppercase;
+
+}
+
+.sectiontxt {
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: var(--focus);
+}
+
+/*======================Utalities End===================================*/
+
+/*======================Nav Start==================================================*/
+nav .logo {
+  text-decoration: none;
+}
+
+ .logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+}
+
+ .logoname h1 {
+  color: var(--pure);
+  font-size: 16px;
+  font-family: "Montserrat-Black", sans-serif;
+  margin: 0;
+  padding: 1;
+}
+
+.logoname p {
+  color: var(--pure);
+  text-align: center;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 9px;
+  margin: 0;
+  padding: 0;
+}
+
+nav .nav_links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a.navbar_items {
+  text-decoration: none;
+  color: var(--pure);
+  margin-right: 30px;
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+
+}
+
+
+.navbar_items:hover {
+  color: var(--focus);
+}
+
+.navbar_items.active {
+  color: var(--focus);
+}
+
+.nav_items {
+  margin-bottom: 15px;
+}
+
+.navbar_items:hover:after {
+  color: var(--focus);
+}
+
+.navbar_items.active:after {
+  color: var(--focus);
+}
+
+.btns {
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  line-height: 0.8;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+
+}
+
+.btns-primary {
+  background: var(--focus);
+  color: var(--heaven);
+}
+
+.btns-primary:hover {
+  background: transparent;
+  color: var(--pure);
+  border: 1px solid var(--focus);
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+nav .container button.navbar-toggler {
+  color: white;
+ 
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.textb {
+  color: var(--pure);
+}
+
+/*================================================================*/
+
+
+/*======================Nav Start End==================================================*/

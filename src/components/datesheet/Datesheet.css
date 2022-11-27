@@ -1,0 +1,637 @@
+/*===============================================*/
+
+section.datesheet .container .row .col-12 {
+
+    width: 680px;
+
+    background-color: var(--pure);
+    padding: 20px 30px;
+    box-shadow: 0 1px 5px #afcefe;
+    border-radius: 5px;
+    border-left: 3px solid var(--focus);
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+section.datesheet .container .row .col-12:nth-child(1) {
+    border-left: 3px solid #05C538;
+}
+
+section.datesheet .container .row .col-12:nth-child(2) {
+    border-left: 3px solid #D90077;
+}
+
+section.datesheet .container .row .col-12:nth-child(3) {
+    border-left: 3px solid #00C3D9;
+}
+
+section.datesheet .container .row .col-12:nth-child(4) {
+    border-left: 3px solid #F89F5B;
+}
+
+section.datesheet .container .row .col-12:nth-child(5) {
+    border-left: 3px solid #A44CD3;
+}
+
+section.datesheet .container .row .col-12:nth-child(6) {
+    border-left: 3px solid var(--focus);
+}
+
+section.datesheet .container .row .col-12 h3,
+h2{
+    color: var(--textdark);
+    font-family: "Montserrat-Medium", sans-serif;
+}
+
+section.datesheet .container .row .col-12 h3.subject {
+    font-size: 20px;
+    font-family: "Montserrat-Bold", sans-serif;
+
+}
+
+section.datesheet .container .row .col-12 h2.room {
+    font-size: 20px;
+    font-family: "Montserrat-Bold", sans-serif;
+
+
+}
+
+section.datesheet .container .row .col-12 p.icons.classes {
+    color: #05C538;
+}
+
+section.datesheet .container .row .col-12 p.icons {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2px;
+
+    color: var(--focus);
+}
+
+section.datesheet .container .row .col-12 p.classess {
+    font-size: 14px;
+    font-family: "Montserrat-Medium", sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-left: 5px;
+}
+
+section.datesheet .container .row .col-12 p.lecture {
+    margin: 0;
+    margin-left: 5px;
+
+    font-size: 14px;
+    font-family: "Montserrat-Medium", sans-serif;
+
+}
+
+
+
+
+
+/*========================================================================*/
+/*======================This is Search timetable class=============*/
+div.timetablesearchpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.timetablesearchpage form {
+    position: relative;
+    width: 600px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.timetablesearchpage form input {
+    width: 600px;
+    padding: 15px 20px;
+    border: none;
+    box-shadow: none;
+    box-shadow: 0 1px 5px #afcefe;
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.timetablesearchpage form input:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid var(--focus);
+    box-shadow: 0 1px 5px #afcefe;
+}
+
+.timetablesearchpage form input:placeholder-shown+button {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.timetablesearchpage form button {
+    position: absolute;
+    border: none;
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 16px;
+    font-size: 12px;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    right: 10px;
+    margin: 17px 10px;
+    background-color: transparent;
+    padding: 0;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.timetablesearchpage div.fominputbuttn button.findnow {
+    margin-top: 25px;
+    width: 600px;
+    padding: 12px;
+    background-color: var(--focus);
+    border: none;
+    border-radius: 15px;
+    color: var(--pure)
+}
+
+.timetablesearchpage div.fominputbuttn {
+    display: inline-block;
+
+
+}
+
+.suggestion {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 600px;
+    box-shadow: 0 1px 5px #afcefe;
+
+}
+
+.scrolldiv {
+
+    padding: 0px 20px;
+    min-height: 0px;
+    display: block;
+    max-height: 150px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.scrolldiv p:hover {
+    background-color: var(--activebtn);
+}
+
+.displaybloack {
+    display: block;
+}
+
+/*==============================================================*/
+@media (min-width:280px) {
+    .studentteachertimetable label {
+        padding: 10px;
+        font-size: 12px;
+        margin-right: 12px;
+    }
+
+    .timetablesearchpage form {
+        width: 250px;
+    }
+
+    .timetablesearchpage form input {
+        width: 250px;
+        padding: 15px 14px;
+        border-radius: 15px;
+    }
+
+    .timetablesearchpage div.fominputbuttn button.findnow {
+        width: 250px;
+    }
+
+    .suggestion {
+        width: 250px;
+        margin-top: 13px;
+    }
+
+    .suggestion {
+        width: 250px;
+    }
+
+    .radio-toolbar-days div {
+        width: 43px;
+        margin-right: 8px;
+        overflow: hidden;
+    }
+
+    .suggestion div.scrolldiv p {
+
+        font-size: 12px;
+    }
+
+    .radio-toolbar-days label {
+        font-size: 7px;
+        width: 43px;
+        text-overflow: ellipsis;
+
+    }
+
+    .radio-toolbar-days ul li {
+        margin-right: 6px;
+        font-size: 14px;
+    }
+
+    section.datesheet .container .row .col-12 {
+        height: auto;
+        width: 270px;
+        margin: 10px 10px;
+        padding: 10px 15px;
+
+    }
+
+    section.datesheet .container .row .col-12:nth-child(1) {
+        border-top: 3px solid #05C538;
+        border-left: none;
+    }
+
+    section.datesheet .container .row .col-12:nth-child(2) {
+        border-top: 3px solid #D90077;
+        border-left: none;
+    }
+
+    section.datesheet .container .row .col-12:nth-child(3) {
+        border-top: 3px solid #00C3D9;
+        border-left: none;
+    }
+
+    section.datesheet .container .row .col-12:nth-child(4) {
+        border-top: 3px solid #F89F5B;
+        border-left: none;
+    }
+
+    section.datesheet .container .row .col-12:nth-child(5) {
+        border-top: 3px solid #A44CD3;
+        border-left: none;
+    }
+
+    section.datesheet .container .row .col-12:nth-child(6) {
+        border-top: 3px solid var(--focus);
+        border-left: none;
+    }
+
+
+    section.datesheet .container .row .col-12 p.teacher {
+        font-size: 10px;
+        margin-top: 10px;
+
+
+    }
+
+    section.datesheet .container .row .col-12 h2.room {
+        font-size: 14px;
+    }
+
+    section.datesheet .container .row .col-12 h3.subject {
+        font-size: 16px;
+
+
+    }
+
+}
+
+/*==============================================================*/
+
+@media (min-width:380px) {
+    .studentteachertimetable label {
+        padding: 15px;
+        font-size: 16px;
+        margin-right: 12px;
+    }
+
+    .timetablesearchpage form {
+        width: 350px;
+    }
+
+    .timetablesearchpage form input {
+        width: 350px;
+        padding: 15px 14px;
+        border-radius: 15px;
+    }
+
+    .timetablesearchpage div.fominputbuttn button.findnow {
+        width: 350px;
+    }
+
+    .suggestion {
+        width: 350px;
+
+    }
+
+    .suggestion {
+        width: 350px;
+    }
+
+    .radio-toolbar-days div {
+        width: 60px;
+        margin-right: 5px;
+        margin-left: 5px;
+        overflow: hidden;
+    }
+
+    .radio-toolbar-days label {
+        font-size: 10px;
+        width: 60px;
+        text-overflow: ellipsis;
+
+    }
+
+    .radio-toolbar-days ul li {
+        margin-right: 8px;
+        font-size: 14px;
+    }
+
+    section.datesheet .container .row .col-12 {
+        height: auto;
+        width: 350px;
+        margin: 10px 10px;
+        padding: 10px 15px;
+
+    }
+
+    section.datesheet .container .row .col-12:nth-child(1) {
+        border-top: 3px solid #05C538;
+        border-left: none;
+    }
+
+    section.datesheet .container .row .col-12:nth-child(2) {
+        border-top: 3px solid #D90077;
+        border-left: none;
+    }
+
+    section.datesheet .container .row .col-12:nth-child(3) {
+        border-top: 3px solid #00C3D9;
+        border-left: none;
+    }
+
+    section.datesheet .container .row .col-12:nth-child(4) {
+        border-top: 3px solid #F89F5B;
+        border-left: none;
+    }
+
+    section.datesheet .container .row .col-12:nth-child(5) {
+        border-top: 3px solid #A44CD3;
+        border-left: none;
+    }
+
+    section.datesheet .container .row .col-12:nth-child(6) {
+        border-top: 3px solid var(--focus);
+        border-left: none;
+    }
+
+
+    section.datesheet .container .row .col-12 p.teacher {
+        font-size: 10px;
+        margin-top: 10px;
+
+
+    }
+
+    section.datesheet .container .row .col-12 h2.room {
+        font-size: 14px;
+    }
+
+    section.datesheet .container .row .col-12 h3.subject {
+        font-size: 16px;
+
+
+    }
+
+}
+
+/*=============================================================*/
+
+/*==============================================================*/
+
+@media (min-width:480px) {
+    .studentteachertimetable label {
+        padding: 15px;
+        font-size: 16px;
+        margin-right: 12px;
+    }
+
+    .timetablesearchpage form {
+        width: 450px;
+    }
+
+    .timetablesearchpage form input {
+        width: 450px;
+        padding: 15px 14px;
+        border-radius: 15px;
+    }
+
+    .timetablesearchpage div.fominputbuttn button.findnow {
+        width: 450px;
+    }
+
+    .suggestion {
+        width: 450px;
+    }
+
+    .suggestion {
+        width: 450px;
+    }
+
+    .radio-toolbar-days div {
+        width: 80px;
+        margin-right: 5px;
+        margin-left: 5px;
+        overflow: hidden;
+    }
+
+    .radio-toolbar-days label {
+        font-size: 12px;
+        width: 80px;
+        text-overflow: ellipsis;
+
+    }
+
+    .radio-toolbar-days ul li {
+        margin-right: 10px;
+        font-size: 16px;
+    }
+
+    section.datesheet .container .row .col-12 {
+        height: auto;
+        width: 450px;
+        margin: 10px 10px;
+        padding: 10px 15px;
+
+    }
+
+
+}
+
+/*==============================================================*/
+
+@media (min-width:680px) {
+    .studentteachertimetable label {
+        padding: 15px;
+        font-size: 16px;
+        margin-right: 12px;
+    }
+
+    .timetablesearchpage form {
+        width: 550px;
+    }
+
+    .timetablesearchpage form input {
+        width: 550px;
+        padding: 15px 14px;
+        border-radius: 15px;
+    }
+
+    .timetablesearchpage div.fominputbuttn button.findnow {
+        width: 550px;
+    }
+
+    .suggestion {
+        width: 550px;
+    }
+
+
+
+
+    .radio-toolbar-days div {
+        width: 90px;
+        margin-right: 8px;
+        margin-left: 8px;
+        overflow: hidden;
+    }
+
+    .radio-toolbar-days label {
+        font-size: 12px;
+        width: 90px;
+        text-overflow: ellipsis;
+
+    }
+
+    .radio-toolbar-days ul li {
+        margin-right: 10px;
+        font-size: 16px;
+    }
+
+    section.datesheet .container .row .col-12 {
+        height: auto;
+        width: 550px;
+        margin: 10px 10px;
+        padding: 10px 15px;
+
+    }
+
+
+}
+
+/*==============================================================*/
+
+@media (min-width:770px) {
+    .studentteachertimetable label {
+        padding: 15px;
+        font-size: 16px;
+        margin-right: 12px;
+    }
+
+    .timetablesearchpage form {
+        width: 550px;
+    }
+
+    .timetablesearchpage form input {
+        width: 550px;
+        padding: 15px 14px;
+        border-radius: 15px;
+    }
+
+    .timetablesearchpage div.fominputbuttn button.findnow {
+        width: 550px;
+    }
+
+    .suggestion {
+        width: 550px;
+    }
+
+    .suggestion {
+        width: 550px;
+    }
+
+    .radio-toolbar-days div {
+        width: 120px;
+        margin-right: 8px;
+        margin-left: 8px;
+        overflow: hidden;
+    }
+
+    .radio-toolbar-days label {
+        font-size: 12px;
+        width: 120px;
+        text-overflow: ellipsis;
+
+    }
+
+    .radio-toolbar-days ul li {
+        margin-right: 10px;
+        font-size: 16px;
+    }
+
+
+
+    section.datesheet .container .row .col-12 {
+        height: auto;
+        width: 680px;
+        margin: 15px 15px;
+        padding: 10px 15px;
+
+    }
+
+    section.datesheet .container .row .col-12 p.teacher {
+        font-size: 12px;
+        margin-top: 10px;
+
+
+    }
+
+    section.datesheet .container .row .col-12 h2.room {
+        font-size: 18px;
+    }
+
+    section.datesheet .container .row .col-12 h3.subject {
+        font-size: 16px;
+
+
+    }
+
+}
+
+@media (min-width:990px) {
+    section.datesheet .container .row .col-12 {
+        height: auto;
+        width: 680px;
+        margin: 15px 15px;
+        padding: 20px 15px;
+
+    }
+
+
+
+    .suggestion {
+        width: 550px;
+    }
+
+
+}

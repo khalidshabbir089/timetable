@@ -1,0 +1,292 @@
+.loading-style{
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+.testdiv{
+    height: 100px;
+}
+.suggtionw{
+    width: 150px;
+    
+   cursor: pointer;
+}
+section.complete-section{
+    width: 100%;
+}
+section.searchsection div.timetableerrow {
+    align-items: baseline;
+}
+
+section.searchsection div.timetableerrow .navlink {
+
+    margin-right: 20px;
+    font-size: 25px;
+
+}
+
+input.searchinput {
+    text-transform: uppercase;
+}
+
+/*===================================================================*/
+.radio-toolbar-days div.monday {
+    border-bottom: 4px solid #05C538;
+}
+
+.radio-toolbar-days div.tuesday {
+    border-bottom: 4px solid #A44CD3;
+}
+
+.radio-toolbar-days div.wednesday {
+    border-bottom: 4px solid #F89F5B;
+}
+
+.radio-toolbar-days div.thursday {
+    border-bottom: 4px solid #D90077;
+}
+
+.radio-toolbar-days div.friday {
+    border-bottom: 4px solid #00C3D9;
+}
+
+
+.columndivupdate {
+    cursor: pointer;
+ 
+    height: auto;
+    background-color: var(--pure);
+    padding: 20px 30px;
+  
+    border-radius: 5px;
+    border-top: 3px solid var(--focus);
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-left: none;
+    
+}
+.columndivupdate h3,
+h2 {
+    color: var(--textdark);
+    font-family: "Montserrat-Medium", sans-serif;
+}
+
+.columndivupdate h3.subject {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: "Montserrat-Bold", sans-serif;
+
+}
+.columndivupdate p.classess, p.lecture {
+    font-size: 6px;
+    font-family: "Montserrat-Bold", sans-serif;
+    margin: 0px;
+    pad: 0px;
+    margin-left: 5px;
+}
+.columndivupdate h2.room {
+    font-size: 14px;
+    font-family: "Montserrat-Bold", sans-serif;
+
+
+}
+
+ .columndivupdate p.icons.classes {
+    color: #05C538;
+}
+
+ .columndivupdate p.icons {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2px;
+    color: var(--focus);
+}
+
+ .columndivupdate p.classess {
+    font-size: 14px;
+    font-family: "Montserrat-Medium", sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-left: 5px;
+}
+
+ .columndivupdate p.lecture {
+    margin: 0;
+    margin-left: 5px;
+     margin-top: 15px;
+    font-size: 14px;
+    font-family: "Montserrat-Medium", sans-serif;
+
+}
+
+
+
+/* ================== */
+.columndiv p.teacher {
+    margin-bottom: 10px;
+    font-family: "Montserrat-Medium", sans-serif;
+    font-size: 12px;
+
+}
+
+.columndiv {
+    cursor: pointer;
+
+    height: auto;
+    background-color: var(--pure);
+    padding: 20px 30px;
+    box-shadow: 0 1px 5px #afcefe;
+    border-radius: 5px;
+    border-top: 3px solid var(--focus);
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-left: none;
+    
+}
+
+
+
+ .columndiv h3,
+h2 {
+    color: var(--textdark);
+    font-family: "Montserrat-Medium", sans-serif;
+}
+
+.columndiv h3.subject {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: "Montserrat-Bold", sans-serif;
+
+}
+
+.columndiv p.teacher {
+    margin-bottom: 10px;
+    font-family: "Montserrat-Medium", sans-serif;
+    font-size: 12px;
+
+}
+
+ .columndiv p.classess, p.lecture {
+    font-size: 6px;
+    font-family: "Montserrat-Bold", sans-serif;
+    margin: 0px;
+    pad: 0px;
+    margin-left: 5px;
+}
+
+ .columndiv h2.room {
+    font-size: 14px;
+    font-family: "Montserrat-Bold", sans-serif;
+
+
+}
+
+ .columndiv p.icons.classes {
+    color: #05C538;
+}
+
+ .columndiv p.icons {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2px;
+    color: var(--focus);
+}
+
+ .columndiv p.classess {
+    font-size: 14px;
+    font-family: "Montserrat-Medium", sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-left: 5px;
+}
+
+ .columndiv p.lecture {
+    margin: 0;
+    margin-left: 5px;
+     margin-top: 15px;
+    font-size: 14px;
+    font-family: "Montserrat-Medium", sans-serif;
+
+}
+
+
+
+
+
+/*======================================================*/
+div.dropdownmenue select {
+    padding: 7px 15px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 1px 5px #afcefe;
+    border: 1px solid var(--focus);
+}
+
+
+
+div.dropdownmenue select:checked {
+    border: none;
+    box-shadow: none;
+    box-shadow: 0 1px 5px #afcefe;
+    outline: none;
+    border: 1px solid var(--focus);
+}
+
+div.dropdownmenue select:focus {
+    border: none;
+    box-shadow: none;
+    box-shadow: 0 1px 5px #afcefe;
+    outline: none;
+    border: 1px solid var(--focus);
+}
+
+
+
+div.commentroportbtn button {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    margin-right: 5px;
+    font-size: 20px;
+    color: var(--textdark);
+}
+
+
+
+div.inputfield {
+    margin-top: 20px;
+
+}
+
+div.inputfield input {
+    box-shadow: 0 1px 5px #afcefe;
+    padding: 8px 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    display: block
+}
+
+.submitbtn {
+    width: 100%;
+    padding: 8px 20px;
+    border-radius: 25px;
+    border: none;
+    background-color: var(--focus);
+    color: var(--pure);
+
+}
+
+.submitbtn:hover {
+    background-color: var(--footer);
+    transition: 0.3 all ease-in-out;
+}
+
+.searchbar {
+    box-shadow: 0 1px 5px #afcefe;
+    padding: 10px;
+}
+

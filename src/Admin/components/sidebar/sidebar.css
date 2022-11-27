@@ -1,0 +1,197 @@
+:root {
+  --primary: #2871CC;
+  --focus: #0AA5FF;
+  --pure: #ffffff;
+  --footer: #011F74;
+  --policybg: #001350;
+  --shadow: #064BAF;
+  --texth: #686565;
+  --gray: #969696;
+  --black: #000000;
+  --textdark: #474646;
+  --activebtn: #E7EBFC;
+}
+
+/*---------------------------------------fonts--------------*/
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url(../../../../public/assets/fonts/Montserrat-Black.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-ExtraLight";
+  src: url(../../../../public/assets/fonts/Montserrat-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(../../../../public/assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url(../../../../public/assets/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url(../../../../public/assets/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-Thin";
+  src: url(../../../../public/assets/fonts/Montserrat-Thin.ttf);
+}
+
+@font-face {
+  font-family: "Raleway-Italic";
+  src: url(../../../../public/assets/fonts/Raleway-Italic-VariableFont_wght.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+@font-face {
+  font-family: "Raleway";
+  src: url(../../../../public/assets/fonts/Raleway-VariableFont_wght.ttf);
+}
+
+.sidebar {
+  height: calc(100vh);
+  background-color: #330E70;
+  position: sticky;
+  top: 0px;
+  margin-top: 0;
+
+}
+
+div.sidebarlistdiv {
+  margin-left: 20px;
+
+}
+
+div.sidebarlistdiv ul li {
+  margin-top: 10px;
+  color: var(--pure);
+}
+
+div.sidebarlistdiv ul li p,
+.SubMenu {
+
+  color: var(--pure);
+  padding: 0;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.menubackground {
+  background-color: red;
+}
+
+div.sidebarlistdiv ul li:hover {
+  color: black;
+}
+
+.sidebar div.logo img {
+  width: 60px;
+  height: 60px;
+  margin-right: 5px;
+}
+
+.sidebar div.logo h1 {
+  color: var(--pure);
+  font-size: 17px;
+  font-family: "Montserrat-Black", sans-serif;
+  margin: 0;
+  padding: 1;
+}
+
+.sidebar div.logo {
+  padding-bottom: 30px;
+
+}
+
+.sidebar div.logo p {
+  color: var(--pure);
+  text-align: center;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.sidebarWrapper {
+  margin-top: 0px;
+  padding: 20px;
+  color: #555;
+  padding-bottom: 0px;
+}
+
+
+
+
+
+.sidebarList,
+.submenu {
+  list-style: none;
+  padding: 0px;
+  margin: 0;
+  padding-right: 0;
+}
+
+
+
+.submenu:hover {
+  background-color: var(--pure);
+}
+
+.sidebarListItem {
+  margin-left: 10px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 0;
+  width: 250px;
+  border-radius: 25px 0px 0px 25px;
+}
+
+.Submenu {
+  margin-left: 10px;
+  padding: 10px;
+  padding-left: 15px;
+  width: 250px;
+
+  overflow-x: none;
+
+}
+
+.Submenu:hover {
+  background-color: transparent;
+  color: red;
+
+}
+
+
+
+.Menudiv {
+  background-color: #30096e;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+
+
+
+.sidebarListItem:hover {
+  background-color: var(--pure);
+  color: black;
+
+}
+
+ul li .icons {
+  margin-right: 10px;
+}
+
+.DropdownButton {
+  width: 300px;
+}

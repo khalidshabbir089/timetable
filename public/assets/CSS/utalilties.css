@@ -1,0 +1,69 @@
+/*---------------------------------------fonts--------------*/
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url(../fonts/Montserrat-Black.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-ExtraLight";
+  src: url(../fonts/Montserrat-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-Thin";
+  src: url(../fonts/Montserrat-Thin.ttf);
+}
+
+@font-face {
+  font-family: "Raleway-Italic";
+  src: url(../fonts/Raleway-Italic-VariableFont_wght.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@font-face {
+  font-family: "Raleway";
+  src: url(../fonts/Raleway-VariableFont_wght.ttf);
+}
+
+:root {
+ --primary:#2871CC;
+ --focus:#0AA5FF;
+ --pure:#ffffff;
+ --footer:#011F74;
+ --policybg:#001350;  
+ --shadow:#064BAF;
+ --texth:#686565;
+ --gray:#969696;
+ --black:#000000;
+ --textdark:#474646;
+ --activebtn:#E7EBFC;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: var(--pure);
+   background-color: #f4f6f9;
+}
+
+.NavLinkclass{
+  color: var(--textdark);
+  background: red;
+  font-family: "Montserrat-Medium", sans-serif;
+
+}

@@ -1,0 +1,219 @@
+
+/*===================================================*/
+section.hero {
+    width: 100%;
+    height: 450px;
+    background: url("../../../public/assets/images/hero.jpg") center;
+    background-size: cover;
+    border-radius: 0px 0px 15px 15px;
+    position: relative;
+   
+  }
+  section.hero:before {
+    content: "";
+    background: linear-gradient(#4690eacc,#00409aec);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0px 0px 15px 15px;
+   
+  }
+  section.hero .hero-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 0px;
+    
+  }
+  section.hero .hero-container h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 54px;
+    color: var(--pure);
+  }
+  
+  
+  /*========================================================*/
+  
+  section.menu{
+    position: absolute;
+  
+    background: #fff;
+    display: flex;
+    justify-content: center;
+   
+    margin-top: 380px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px rgba(6, 74, 175, 0.466);
+  }
+  
+  section.menu .content{
+    padding: 6px 50px;
+  
+  }
+  
+  section.menu .content .itesms img{
+    margin-bottom: 3px;
+    width: 40px;
+  }
+  
+  section.menu .content hr{
+    color: black;
+    width: 1px;
+    height: 60px;
+    margin-right: 60px;
+  }
+  section.menu .content div.itesms:nth-child(-n+3){
+    margin-right: 80px;
+  }
+  
+  @media (min-width:280px)  {
+    section.menu .content hr{
+      margin-right: 10px;
+      height: 30px;
+      width: 1px;
+    }
+    section.menu .content div.itesms:nth-child(-n+3){
+      margin-right: 15px;
+    }
+    section.menu .content {
+      padding: 7px 40px;
+  }
+  section.hero h1 {
+  font-size: 33px;
+  }
+  section.hero{
+    height: 300px;
+  }
+  section.menu{
+    margin-top: 258px;
+  }
+  section.menu .content .itesms img {
+    width: 25px;
+  }
+  section.menu .content .itesms p{
+    font-size: 8px;
+    font-family: "Montserrat-Bold",sans-serif;
+    font-weight: 600;
+  }
+  section.hero .hero-container h1 {
+    font-size: 25px;
+      }
+  }
+  @media(min-width:300px){
+    section.menu .content div.itesms:nth-child(-n+3){
+      margin-right: 25px;
+    }
+
+  }
+  
+  @media(min-width:450px){
+    section.menu .content div.itesms:nth-child(-n+3){
+      margin-right: 40px;
+    }
+    section.menu .content {
+      padding: 14px 60px;
+    }
+    section.menu .content hr {
+      margin-right: 25px;
+    }
+    section.menu .content .itesms p{
+      font-size: 12px;
+    }
+    section.menu .content div.itesms:nth-child(-n+3) {
+  margin-right: 25px;
+    }
+  
+    section.hero .hero-container h1 {
+  font-size: 30px;
+    }
+  
+  }
+  
+  
+  @media (min-width:790px) {
+    section.hero {
+      width: 100%;
+      height: 450px;
+      background: url("../../../public/assets/images/hero.jpg") center;
+      background-size: cover;
+      border-radius: 0px 0px 15px 15px;
+      position: relative;
+     
+    }
+    section.hero:before {
+      content: "";
+      background: linear-gradient(#4690eacc,#00409aec);
+      position: absolute;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+      border-radius: 0px 0px 15px 15px;
+     
+    }
+    section.hero .hero-container {
+      position: absolute;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 0 0px;
+      
+    }
+    section.hero .hero-container h1 {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 800;
+      font-size: 54px;
+      color: var(--pure);
+    }
+    
+    
+    /*========================================================*/
+    
+    section.menu{
+      position: absolute;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      margin-top: 390px;
+      border-radius: 10px;
+    box-shadow: 0px 1px 5px rgba(6, 74, 175, 0.466);
+      
+    }
+    
+    section.menu .content{
+      padding: 6px 50px;
+    
+    }
+    
+    section.menu .content .itesms img{
+      margin-bottom: 3px;
+      width: 40px;
+    }
+    
+    section.menu .content hr{
+      color: black;
+      width: 1px;
+      height: 60px;
+      margin-right: 80px;
+    }
+    section.menu .content div.itesms:nth-child(-n+3){
+      margin-right: 80px;
+    }
+  }
+  
+  
+  /* ====================*/

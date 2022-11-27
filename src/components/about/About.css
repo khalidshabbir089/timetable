@@ -1,0 +1,186 @@
+section.aboutus {
+  margin-top: 100px;
+  overflow-x: hidden;
+}
+
+section.aboutus h1.bgtext {
+  font-family: "Montserrat-Bold";
+  font-weight: 700;
+  font-size: 68px;
+  color: var(--pure);
+
+}
+
+section.aboutus p.bgtext {
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 26px;
+  text-align: left;
+  color: var(--pure);
+}
+
+.bgshape {
+  padding: 560px 60px;
+  background-color: var(--primary);
+}
+
+section.aboutus .secondsideabout {
+  padding: 60px 60px;
+}
+
+section.aboutus .secondsideabout img {
+  width: 130px;
+  height: 130px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+section.aboutus .secondsideabout .aboutsrightdiv {
+  margin-top: 50px;
+  width: 100%;
+  border-bottom: 2px solid #c3c3c3d7;
+  padding-bottom: 20px;
+}
+
+section.aboutus .secondsideabout .aboutsrightdiv h3,
+h6 {
+  font-family: "Montserrat-Bold";
+  font-weight: 700;
+  font-size: 33px;
+  color: var(--texth);
+}
+
+section.aboutus .secondsideabout .aboutsrightdiv h6 {
+
+  color: var(--primary);
+}
+
+section.aboutus .secondsideabout .aboutsrightdiv p {
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 18px;
+  text-align: left;
+  color: var(--texth);
+}
+
+/*=========================-===============*/
+@media (min-width:280px) {
+  section.aboutus {
+    margin-top: 50px;
+  }
+
+  .bgshape {
+    padding: 94px 40px;
+
+  }
+
+  section.aboutus p.bgtext {
+    font-size: 12px;
+    margin-top: 20px;
+
+  }
+
+  section.aboutus h1.bgtext {
+    font-size: 35px;
+  }
+
+  section.aboutus .secondsideabout .aboutsrightdiv {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section.aboutus .secondsideabout img {
+    margin-bottom: 20px;
+    margin-right: 0px;
+    width: 100px;
+    height: 100px;
+  }
+
+  section.aboutus .secondsideabout .aboutsrightdiv p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  section.aboutus .secondsideabout {
+
+    padding: 60px 30px;
+  }
+
+  section.aboutus .secondsideabout .aboutsrightdiv h3,
+  h6 {
+    font-size: 14px;
+    text-align: center;
+  }
+
+}
+
+
+@media (min-width:992px) {
+  section.aboutus {
+    margin-top: 100px;
+  }
+
+  section.aboutus h1.bgtext {
+    font-family: "Montserrat-Bold";
+    font-weight: 700;
+    font-size: 68px;
+  }
+
+  section.aboutus p.bgtext {
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .bgshape {
+    padding: 560px 80px;
+    background-color: var(--primary);
+  }
+
+  section.aboutus .secondsideabout {
+    padding: 30px 60px;
+  }
+
+  section.aboutus .secondsideabout img {
+    width: 130px;
+    height: 130px;
+    margin-right: 30px;
+    border-radius: 50%;
+  }
+
+  section.aboutus .secondsideabout .aboutsrightdiv {
+    margin-top: 0px;
+    width: 100%;
+    border-bottom: 2px solid #c3c3c3d7;
+    padding-bottom: 20px;
+    flex-direction: row;
+    margin-bottom: 30px;
+  }
+
+  section.aboutus .secondsideabout .aboutsrightdiv h3,
+  h6 {
+    font-family: "Montserrat-Bold";
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--texth);
+    text-align: left;
+  }
+
+  section.aboutus .secondsideabout .aboutsrightdiv h6 {
+
+    color: var(--primary);
+  }
+
+  section.aboutus .secondsideabout .aboutsrightdiv p {
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 16px;
+    text-align: left;
+    color: var(--texth);
+  }
+
+  .bgshape {
+    padding: 560px 80px;
+    clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
+
+  }
+}
+
+/*==============About Us Start End======================*/

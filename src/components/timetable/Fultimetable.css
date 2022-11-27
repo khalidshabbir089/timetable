@@ -1,0 +1,113 @@
+section.searchsection div.timetableerrow {
+    align-items: baseline;
+}
+
+section.searchsection div.timetableerrow .navlink {
+
+    margin-right: 20px;
+    font-size: 25px;
+
+}
+
+input.searchinput {
+    text-transform: uppercase;
+}
+
+/*===================================================================*/
+.radio-toolbar-days div.monday {
+    border-bottom: 4px solid #05C538;
+}
+
+.radio-toolbar-days div.tuesday {
+    border-bottom: 4px solid #A44CD3;
+}
+
+.radio-toolbar-days div.wednesday {
+    border-bottom: 4px solid #F89F5B;
+}
+
+.radio-toolbar-days div.thursday {
+    border-bottom: 4px solid #D90077;
+}
+
+.radio-toolbar-days div.friday {
+    border-bottom: 4px solid #00C3D9;
+}
+
+section.timetablewrapper .container .row .col-12 {
+    cursor: pointer;
+    width: 380px;
+    height: auto;
+    background-color: var(--pure);
+    padding: 20px 30px;
+    box-shadow: 0 1px 5px #afcefe;
+    border-radius: 5px;
+    border-left: 3px solid var(--focus);
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+section.timetablewrapper .container .row .col-12 h3,
+h2 {
+    color: var(--textdark);
+    font-family: "Montserrat-Medium", sans-serif;
+}
+
+section.timetablewrapper .container .row .col-12 h3.subject {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: "Montserrat-Bold", sans-serif;
+
+}
+
+section.timetablewrapper .container .row .col-12 p.teacher {
+    margin-bottom: 10px;
+    font-family: "Montserrat-Medium", sans-serif;
+    font-size: 12px;
+
+}
+
+section.timetablewrapper .container .row .col-12 p.classess,
+p.lecture {
+    font-size: 10px;
+    font-family: "Montserrat-Bold", sans-serif;
+    margin: 0px;
+    pad: 0px;
+    margin-left: 5px;
+}
+
+section.timetablewrapper .container .row .col-12 h2.room {
+    font-size: 18px;
+    font-family: "Montserrat-Bold", sans-serif;
+
+
+}
+
+section.timetablewrapper .container .row .col-12 p.icons.classes {
+    color: #05C538;
+}
+
+section.timetablewrapper .container .row .col-12 p.icons {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2px;
+    color: var(--focus);
+}
+
+section.timetablediv .container .row .col-12 p.classess {
+    font-size: 14px;
+    font-family: "Montserrat-Medium", sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-left: 5px;
+}
+
+section.timetablediv .container .row .col-12 p.lecture {
+    margin: 0;
+    margin-left: 5px;
+
+    font-size: 14px;
+    font-family: "Montserrat-Medium", sans-serif;
+
+}

@@ -1,0 +1,58 @@
+/*==============About Us Start======================*/
+section.aboutushero {
+    width: 100%;
+    height: 450px;
+    background: url("../../../public/assets/images/hero.jpg") center;
+    background-size: cover;
+    position: relative;
+   
+  }
+  section.aboutushero:before {
+    content: "";
+    background: linear-gradient(#4690eacc,#00409aec);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+   
+   
+  }
+  section.aboutushero .aboutushero-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 0px;
+    
+  }
+  section.aboutushero .aboutushero-container h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 54px;
+    color: var(--pure);
+  }
+  @media (min-width:280px) {
+    section.aboutushero{
+      height: 300px;
+    }
+    section.aboutushero .aboutushero-container h1{
+      font-size: 40px;
+    }
+  }
+  @media (min-width:470px) {
+    section.aboutushero{
+      height: 450px;
+    }
+   
+    section.aboutushero .aboutushero-container h1{
+      font-size: 54px;
+    }
+  }
+  
+  /*=========================*/
